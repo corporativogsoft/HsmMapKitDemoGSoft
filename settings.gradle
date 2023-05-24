@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+    }
+
+    plugins {
+        id 'com.huawei.agconnect.agcp' version '1.6.0.300'
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+    }
+}
+
+include ':app'
